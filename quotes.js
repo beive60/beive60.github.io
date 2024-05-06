@@ -1,6 +1,7 @@
 // quotes.js
 const quotes = [
     { text: "なーん", audio: "static/na-nn.mp3", category: "鳴き声" },
+    { text: "ヤだ", audio: "static/yada.mp3", category: "返答" },
     // 他の名言を追加...
 ];
 
