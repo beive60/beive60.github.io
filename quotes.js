@@ -12,11 +12,17 @@ window.onload = function() {
     quotes.forEach((quote, index) => {
         const button = document.createElement('button');
         button.textContent = quote.text;
-        button.onclick = function() {
-            const audio = new Audio(quote.audio);
+        button.dataset.audio = quote.audio;  // データ属性にaudioのパスを保存
+        quoteButtonsDiv.appendChild(button);
+    });
+
+    // イベント委譲を使用して、親要素にイベントリスナーを設定
+    quoteButtonsDiv.addEventListener('click', function(event) {
+        if (event.target.tagName === 'BUTTON') {
+            const audioPath = event.target.dataset.audio;
+            const audio = new Audio(audioPath);
             audio.volume = volumeSlider.value;
             audio.play();
-        };
-        quoteButtonsDiv.appendChild(button);
+        }
     });
 };

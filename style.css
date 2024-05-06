@@ -1,12 +1,25 @@
+    :root {
+        --main-bg-color: #DAFDD0;
+        --accent-color: #4CAF50;
+        --button-bg-color: #C8E6C9;
+        --button-text-color: #1B5E20;
+        --button-hover-bg-color: #A5D6A7;
+        --link-color: #2E7D32;
+        --base-padding: 20px;
+        --button-border-radius: 10px;
+    }
+
+
+
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #DAFDD0; /* Changed to a greenish color as per instructions */
+    background-color: var(--main-bg-color);
     color: #333;
-    padding: 20px;
+    padding: var(--base-padding);
 }
 
 h1, h2, h3 {
-    color: #4CAF50; /* Changed to a greenish color as per instructions */
+    color: var(--accent-color);
 }
 
 .header {
@@ -20,18 +33,18 @@ img#image {
 }
 
 button {
-    background-color: #C8E6C9; /* Changed to a greenish color as per instructions */
+    background-color: var(--button-bg-color);
     border: none;
-    border-radius: 10px;
+    border-radius: var(--button-border-radius);
     padding: 10px 20px;
     margin: 5px;
     cursor: pointer;
     font-size: 16px;
-    color: #1B5E20; /* Changed to a greenish color as per instructions */
+    color: var(--button-text-color);
 }
 
 button:hover {
-    background-color: #A5D6A7; /* Changed to a greenish color as per instructions */
+    background-color: var(--button-hover-bg-color);
 }
 
 a {
@@ -41,6 +54,7 @@ a {
 
 a:hover {
     text-decoration: underline;
+    color: var(--link-color);
 }
 
 input[type="range"] {
