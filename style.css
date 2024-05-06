@@ -1,31 +1,41 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #DAFDD0;
+    background-color: #DAFDD0; /* Changed to a greenish color as per instructions */
     color: #333;
     padding: 20px;
 }
 
 h1, h2, h3 {
-    color: #4CAF50;
+    color: #4CAF50; /* Changed to a greenish color as per instructions */
+}
+
+.header {
+    display: flex;
+    align-items: center; /* 中央揃え */
+}
+
+img#image {
+    width: 80px;  /* 画像のサイズは必要に応じて調整してください */
+    margin-bottom: 20px; /* タイトルとの間隔 */
 }
 
 button {
-    background-color: #C8E6C9;
+    background-color: #C8E6C9; /* Changed to a greenish color as per instructions */
     border: none;
     border-radius: 10px;
     padding: 10px 20px;
     margin: 5px;
     cursor: pointer;
     font-size: 16px;
-    color: #1B5E20;
+    color: #1B5E20; /* Changed to a greenish color as per instructions */
 }
 
 button:hover {
-    background-color: #A5D6A7;
+    background-color: #A5D6A7; /* Changed to a greenish color as per instructions */
 }
 
 a {
-    color: #2E7D32;
+    color: #2E7D32; /* Changed to a greenish color as per instructions */
     text-decoration: none;
 }
 
