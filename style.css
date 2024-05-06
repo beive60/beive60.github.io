@@ -1,31 +1,31 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f0e6f6;
+    background-color: #DAFDD0;
     color: #333;
     padding: 20px;
 }
 
 h1, h2, h3 {
-    color: #d63384;
+    color: #4CAF50;
 }
 
 button {
-    background-color: #f8d7da;
+    background-color: #C8E6C9;
     border: none;
     border-radius: 10px;
     padding: 10px 20px;
     margin: 5px;
     cursor: pointer;
     font-size: 16px;
-    color: #721c24;
+    color: #1B5E20;
 }
 
 button:hover {
-    background-color: #f1b0b7;
+    background-color: #A5D6A7;
 }
 
 a {
-    color: #0056b3;
+    color: #2E7D32;
     text-decoration: none;
 }
 
