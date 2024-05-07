@@ -1,8 +1,10 @@
 // quotes.js
 const quotes = [
-    { text: "なーん", audio: "static/na-nn.mp3", category: "鳴き声" },
-    { text: "ヤだ", audio: "static/yada.mp3", category: "返答" },
+    { text: "なーん", audio: "static/na-nn.mp3", category: "泣き" },
+    { text: "ヤだ", audio: "static/yada.mp3", category: "否定" },
+    { text: "皆さん、本日もお疲れ様です", audio: "static/otsukaresamadesu.mp3", category: "あいさつ" },
     // 他の名言を追加...
+    // あいさつ、肯定、否定、返事・リアクション、問いかけ、掛け声、恫喝、お礼、謝罪、命令、笑い、応援、慰め、効果音・悲鳴、泣き、食べ物、その他
 ];
 
 window.onload = function() {
